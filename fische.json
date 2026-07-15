@@ -339,6 +339,16 @@
         "Schonzeit_bis": null,
         "Mindestmass": "Geschützt",
         "Typ": 7
+      },
+      {
+        "ID": 35,
+        "Name": "Graskarpfen",
+        "Grösse": "20-50 cm",
+        "Gewicht": "0.2-2 kg",
+        "Schonzeit_von": null,
+        "Schonzeit_bis": null,
+        "Mindestmass": "Gewässerabhängig",
+        "Typ": 2
       }
     ]
   }
