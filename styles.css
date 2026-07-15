@@ -241,3 +241,50 @@ body {
   padding: 24px 0;
   text-align: center;
 }
+
+/* Knoten */
+.knots-section {
+  padding: 16px 16px 32px;
+  position: relative;
+}
+
+.knots-section__label {
+  color: var(--color-black);
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 4px;
+  padding: 0 16px;
+}
+
+.knots-section__hint {
+  color: var(--color-gray);
+  font-size: 12px;
+  line-height: 1.4;
+  margin-bottom: 16px;
+  padding: 0 16px;
+}
+
+.knots-section__menu {
+  position: absolute;
+  right: 16px;
+  top: 16px;
+}
+
+.knots-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  list-style: none;
+}
+
+.knots-list__item {
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.knots-list__image {
+  display: block;
+  height: auto;
+  width: 100%;
+}

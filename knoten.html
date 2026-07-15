@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fishguard – Knoten</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Kaisei+Decol:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app">
+      <header class="hero">
+        <img
+          class="hero__image"
+          src="assets/header-fish.png"
+          alt="Fisch Illustration"
+        />
+        <h1 class="hero__title">Fishguard</h1>
+      </header>
+
+      <section class="knots-section">
+        <p class="knots-section__label">Angelknoten</p>
+        <p class="knots-section__hint">
+          Schritt-für-Schritt-Anleitungen zum Binden wichtiger Fischereiknoten.
+        </p>
+
+        <div class="menu knots-section__menu">
+          <button
+            id="menu-button"
+            class="menu-button"
+            type="button"
+            aria-label="Menü"
+            aria-expanded="false"
+            aria-controls="nav-menu"
+          >
+            <img
+              class="menu-button__icon"
+              src="assets/menu-icon.svg"
+              alt=""
+              aria-hidden="true"
+            />
+          </button>
+          <nav id="nav-menu" class="nav-menu" hidden>
+            <a class="nav-menu__link" href="index.html">Fisch</a>
+            <a class="nav-menu__link" href="gewaesser.html">Gewässer</a>
+            <a class="nav-menu__link nav-menu__link--active" href="knoten.html"
+              >Knoten</a
+            >
+          </nav>
+        </div>
+
+        <ul class="knots-list">
+          <li class="knots-list__item">
+            <img
+              class="knots-list__image"
+              src="assets/knots/clinchknoten.png"
+              alt="Clinchknoten – Schritt-für-Schritt-Anleitung zum Binden eines Fischereiknotens am Einzelhaken"
+              width="1024"
+              height="1536"
+            />
+          </li>
+          <li class="knots-list__item">
+            <img
+              class="knots-list__image"
+              src="assets/knots/schlaufenknoten.png"
+              alt="Schlaufenknoten – Schritt-für-Schritt-Anleitung für einen einfachen Überhand-Schlaufenknoten"
+              width="1024"
+              height="1536"
+              loading="lazy"
+            />
+          </li>
+          <li class="knots-list__item">
+            <img
+              class="knots-list__image"
+              src="assets/knots/verbindungsknoten.png"
+              alt="Verbindungsknoten – Schritt-für-Schritt-Anleitung zum Verbinden zweier Angelschnüre mit dem Doppel-Uni-Knoten"
+              width="1024"
+              height="1536"
+              loading="lazy"
+            />
+          </li>
+          <li class="knots-list__item">
+            <img
+              class="knots-list__image"
+              src="assets/knots/drillingknoten.png"
+              alt="Drillingknoten – Schritt-für-Schritt-Anleitung zum Anbinden eines Drillinghakens mit dem Palomar-Knoten"
+              width="1024"
+              height="1536"
+              loading="lazy"
+            />
+          </li>
+          <li class="knots-list__item">
+            <img
+              class="knots-list__image"
+              src="assets/knots/vorfachknoten.png"
+              alt="Vorfachknoten – Schritt-für-Schritt-Anleitung zum Verbinden von Hauptschnur und Vorfach mit dem Albright-Knoten"
+              width="1024"
+              height="1536"
+              loading="lazy"
+            />
+          </li>
+        </ul>
+      </section>
+    </div>
+
+    <script src="menu.js"></script>
+  </body>
+</html>

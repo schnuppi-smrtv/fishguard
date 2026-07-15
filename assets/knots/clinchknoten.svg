@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 520" fill="none">
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0 0 L8 4 L0 8 Z" fill="#6B7280"/>
+    </marker>
+  </defs>
+  <rect width="340" height="520" fill="#FAFAFA"/>
+  <text x="170" y="32" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="18" font-weight="600" fill="#1F2937">Clinchknoten</text>
+  <text x="170" y="52" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="#6B7280">Fischereiknoten &#183; Einzelhaken</text>
+  <circle cx="24" cy="78" r="12" fill="#1F2937"/>
+  <text x="24" y="82" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="#FFF">1</text>
+  <text x="44" y="82" font-family="Inter, sans-serif" font-size="11" font-weight="600" fill="#1F2937">Schnur durch &#214;se f&#252;hren</text>
+  <rect x="20" y="96" width="140" height="100" rx="8" fill="#FFF" stroke="#E5E7EB"/>
+  <path d="M40 186 L40 130" stroke="#2563EB" stroke-width="3" stroke-linecap="round"/>
+  <path d="M40 130 L100 130" stroke="#2563EB" stroke-width="3" stroke-linecap="round"/>
+  <path d="M100 130 L100 150" stroke="#2563EB" stroke-width="3" stroke-linecap="round"/>
+  <rect x="88" y="148" width="24" height="14" rx="2" fill="none" stroke="#374151" stroke-width="2"/>
+  <path d="M100 162 L100 186" stroke="#2563EB" stroke-width="3" stroke-linecap="round"/>
+  <path d="M120 186 L120 148" stroke="#EA580C" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="4 3"/>
+  <text x="130" y="168" font-family="Inter, sans-serif" font-size="9" fill="#EA580C">Ende</text>
+  <path d="M170 146 L190 146" stroke="#6B7280" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <circle cx="204" cy="78" r="12" fill="#1F2937"/>
+  <text x="204" y="82" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="#FFF">2</text>
+  <text x="224" y="82" font-family="Inter, sans-serif" font-size="11" font-weight="600" fill="#1F2937">5&#215; umstehend wickeln</text>
+  <rect x="200" y="96" width="120" height="100" rx="8" fill="#FFF" stroke="#E5E7EB"/>
+  <path d="M240 186 L240 148" stroke="#2563EB" stroke-width="3" stroke-linecap="round"/>
+  <ellipse cx="240" cy="132" rx="14" ry="18" fill="none" stroke="#EA580C" stroke-width="2.5"/>
+  <path d="M226 128 Q240 118 254 128" stroke="#EA580C" stroke-width="2" fill="none"/>
+  <path d="M228 134 Q240 126 252 134" stroke="#EA580C" stroke-width="2" fill="none"/>
+  <path d="M230 140 Q240 134 250 140" stroke="#EA580C" stroke-width="2" fill="none"/>
+  <path d="M232 146 Q240 142 248 146" stroke="#EA580C" stroke-width="2" fill="none"/>
+  <path d="M234 152 Q240 150 246 152" stroke="#EA580C" stroke-width="2" fill="none"/>
+  <rect x="228" y="158" width="24" height="14" rx="2" fill="none" stroke="#374151" stroke-width="2"/>
+  <circle cx="24" cy="218" r="12" fill="#1F2937"/>
+  <text x="24" y="222" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="#FFF">3</text>
+  <text x="44" y="222" font-family="Inter, sans-serif" font-size="11" font-weight="600" fill="#1F2937">Ende durch 1. Schlaufe</text>
+  <rect x="20" y="236" width="140" height="100" rx="8" fill="#FFF" stroke="#E5E7EB"/>
+  <path d="M60 326 L60 268" stroke="#2563EB" stroke-width="3" stroke-linecap="round"/>
+  <ellipse cx="60" cy="252" rx="12" ry="16" fill="none" stroke="#2563EB" stroke-width="2.5"/>
+  <path d="M48 248 L72 248" stroke="#EA580C" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M72 248 L78 242" stroke="#EA580C" stroke-width="2" marker-end="url(#arrow)" fill="none"/>
+  <circle cx="48" cy="248" r="4" fill="none" stroke="#EA580C" stroke-width="1.5"/>
+  <text x="82" y="252" font-family="Inter, sans-serif" font-size="8" fill="#EA580C">1. Schlaufe</text>
+  <rect x="48" y="278" width="24" height="14" rx="2" fill="none" stroke="#374151" stroke-width="2"/>
+  <path d="M170 286 L190 286" stroke="#6B7280" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <circle cx="204" cy="218" r="12" fill="#1F2937"/>
+  <text x="204" y="222" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="#FFF">4</text>
+  <text x="224" y="222" font-family="Inter, sans-serif" font-size="11" font-weight="600" fill="#1F2937">Durch gro&#223;e Schlaufe</text>
+  <rect x="200" y="236" width="120" height="100" rx="8" fill="#FFF" stroke="#E5E7EB"/>
+  <path d="M240 326 L240 290" stroke="#2563EB" stroke-width="3" stroke-linecap="round"/>
+  <path d="M220 290 Q240 268 260 290" stroke="#2563EB" stroke-width="2.5" fill="none"/>
+  <path d="M252 278 L268 268" stroke="#EA580C" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="218" y="310" font-family="Inter, sans-serif" font-size="8" fill="#2563EB">gro&#223;e Schlaufe</text>
+  <rect x="228" y="298" width="24" height="14" rx="2" fill="none" stroke="#374151" stroke-width="2"/>
+  <circle cx="24" cy="358" r="12" fill="#1F2937"/>
+  <text x="24" y="362" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="#FFF">5</text>
+  <text x="44" y="362" font-family="Inter, sans-serif" font-size="11" font-weight="600" fill="#1F2937">Festziehen &amp; abschneiden</text>
+  <rect x="20" y="376" width="140" height="80" rx="8" fill="#FFF" stroke="#E5E7EB"/>
+  <path d="M60 446 L60 400" stroke="#2563EB" stroke-width="3" stroke-linecap="round"/>
+  <ellipse cx="60" cy="388" rx="8" ry="10" fill="none" stroke="#2563EB" stroke-width="2.5"/>
+  <rect x="48" y="408" width="24" height="14" rx="2" fill="none" stroke="#374151" stroke-width="2"/>
+  <path d="M75 420 L90 420" stroke="#6B7280" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <rect x="180" y="358" width="140" height="130" rx="8" fill="#FFF" stroke="#E5E7EB"/>
+  <text x="250" y="378" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" font-weight="600" fill="#059669">Fertiger Knoten</text>
+  <path d="M250 470 L250 410" stroke="#2563EB" stroke-width="3.5" stroke-linecap="round"/>
+  <ellipse cx="250" cy="398" rx="10" ry="12" fill="none" stroke="#2563EB" stroke-width="3"/>
+  <rect x="238" y="420" width="24" height="16" rx="2" fill="none" stroke="#374151" stroke-width="2.5"/>
+  <path d="M250 436 L250 470" stroke="#2563EB" stroke-width="3.5" stroke-linecap="round"/>
+</svg>
