@@ -1,0 +1,254 @@
+{
+    "fische": [
+      {
+        "ID": 1,
+        "Name": "Bachforelle",
+        "Grösse": "25-70 cm",
+        "Gewicht": "0.3-5 kg",
+        "Schonzeit_von": "01.10",
+        "Schonzeit_bis": "28.02",
+        "Mindestmass": "30 cm",
+        "Typ": 3
+      },
+      {
+        "ID": 2,
+        "Name": "Seeforelle",
+        "Grösse": "50-120 cm",
+        "Gewicht": "2-20 kg",
+        "Schonzeit_von": "01.11",
+        "Schonzeit_bis": "10.01",
+        "Mindestmass": "50 cm",
+        "Typ": 3
+      },
+      {
+        "ID": 3,
+        "Name": "Regenbogenforelle",
+        "Grösse": "25-80 cm",
+        "Gewicht": "0.5-8 kg",
+        "Schonzeit_von": null,
+        "Schonzeit_bis": null,
+        "Mindestmass": "Gewässerabhängig",
+        "Typ": 3
+      },
+      {
+        "ID": 4,
+        "Name": "Äsche",
+        "Grösse": "30-60 cm",
+        "Gewicht": "0.5-3 kg",
+        "Schonzeit_von": "01.02",
+        "Schonzeit_bis": "30.04",
+        "Mindestmass": "35 cm",
+        "Typ": 3
+      },
+      {
+        "ID": 5,
+        "Name": "Seesaibling",
+        "Grösse": "25-80 cm",
+        "Gewicht": "0.3-10 kg",
+        "Schonzeit_von": "01.11",
+        "Schonzeit_bis": "31.12",
+        "Mindestmass": "Gewässerabhängig",
+        "Typ": 3
+      },
+      {
+        "ID": 6,
+        "Name": "Hecht",
+        "Grösse": "50-130 cm",
+        "Gewicht": "1-20 kg",
+        "Schonzeit_von": null,
+        "Schonzeit_bis": null,
+        "Mindestmass": "Gewässerabhängig",
+        "Typ": 1
+      },
+      {
+        "ID": 7,
+        "Name": "Egli",
+        "Grösse": "10-50 cm",
+        "Gewicht": "0.1-3 kg",
+        "Schonzeit_von": null,
+        "Schonzeit_bis": null,
+        "Mindestmass": "Gewässerabhängig",
+        "Typ": 1
+      },
+      {
+        "ID": 8,
+        "Name": "Zander",
+        "Grösse": "40-100 cm",
+        "Gewicht": "1-10 kg",
+        "Schonzeit_von": "01.04",
+        "Schonzeit_bis": "31.05",
+        "Mindestmass": "40 cm",
+        "Typ": 1
+      },
+      {
+        "ID": 9,
+        "Name": "Wels",
+        "Grösse": "80-250 cm",
+        "Gewicht": "5-100 kg",
+        "Schonzeit_von": null,
+        "Schonzeit_bis": null,
+        "Mindestmass": "Gewässerabhängig",
+        "Typ": 1
+      },
+      {
+        "ID": 10,
+        "Name": "Aal",
+        "Grösse": "40-120 cm",
+        "Gewicht": "0.2-5 kg",
+        "Schonzeit_von": null,
+        "Schonzeit_bis": null,
+        "Mindestmass": "50 cm",
+        "Typ": 5
+      },
+      {
+        "ID": 11,
+        "Name": "Trüsche",
+        "Grösse": "30-80 cm",
+        "Gewicht": "0.5-5 kg",
+        "Schonzeit_von": null,
+        "Schonzeit_bis": null,
+        "Mindestmass": "Gewässerabhängig",
+        "Typ": 5
+      },
+      {
+        "ID": 12,
+        "Name": "Felchen",
+        "Grösse": "25-70 cm",
+        "Gewicht": "0.3-5 kg",
+        "Schonzeit_von": "15.10",
+        "Schonzeit_bis": "10.01",
+        "Mindestmass": "Gewässerabhängig",
+        "Typ": 4
+      },
+      {
+        "ID": 13,
+        "Name": "Alet",
+        "Grösse": "30-70 cm",
+        "Gewicht": "0.5-5 kg",
+        "Schonzeit_von": null,
+        "Schonzeit_bis": null,
+        "Mindestmass": "Gewässerabhängig",
+        "Typ": 2
+      },
+      {
+        "ID": 14,
+        "Name": "Barbe",
+        "Grösse": "30-90 cm",
+        "Gewicht": "1-8 kg",
+        "Schonzeit_von": null,
+        "Schonzeit_bis": null,
+        "Mindestmass": "Gewässerabhängig",
+        "Typ": 2
+      },
+      {
+        "ID": 15,
+        "Name": "Karpfen",
+        "Grösse": "40-120 cm",
+        "Gewicht": "2-40 kg",
+        "Schonzeit_von": null,
+        "Schonzeit_bis": null,
+        "Mindestmass": "Gewässerabhängig",
+        "Typ": 2
+      },
+      {
+        "ID": 16,
+        "Name": "Schleie",
+        "Grösse": "25-60 cm",
+        "Gewicht": "0.5-4 kg",
+        "Schonzeit_von": null,
+        "Schonzeit_bis": null,
+        "Mindestmass": "Gewässerabhängig",
+        "Typ": 2
+      },
+      {
+        "ID": 17,
+        "Name": "Rotauge",
+        "Grösse": "15-40 cm",
+        "Gewicht": "0.1-1 kg",
+        "Schonzeit_von": null,
+        "Schonzeit_bis": null,
+        "Mindestmass": "Gewässerabhängig",
+        "Typ": 2
+      },
+      {
+        "ID": 18,
+        "Name": "Rotfeder",
+        "Grösse": "20-45 cm",
+        "Gewicht": "0.2-1.5 kg",
+        "Schonzeit_von": null,
+        "Schonzeit_bis": null,
+        "Mindestmass": "Gewässerabhängig",
+        "Typ": 2
+      },
+      {
+        "ID": 19,
+        "Name": "Brachsmen",
+        "Grösse": "30-70 cm",
+        "Gewicht": "1-5 kg",
+        "Schonzeit_von": null,
+        "Schonzeit_bis": null,
+        "Mindestmass": "Gewässerabhängig",
+        "Typ": 2
+      },
+      {
+        "ID": 20,
+        "Name": "Giebel",
+        "Grösse": "20-50 cm",
+        "Gewicht": "0.2-2 kg",
+        "Schonzeit_von": null,
+        "Schonzeit_bis": null,
+        "Mindestmass": "Gewässerabhängig",
+        "Typ": 2
+      },
+      {
+        "ID": 21,
+        "Name": "Karausche",
+        "Grösse": "15-50 cm",
+        "Gewicht": "0.2-3 kg",
+        "Schonzeit_von": null,
+        "Schonzeit_bis": null,
+        "Mindestmass": "Gewässerabhängig",
+        "Typ": 2
+      },
+      {
+        "ID": 22,
+        "Name": "Nase",
+        "Grösse": "30-50 cm",
+        "Gewicht": "0.5-2 kg",
+        "Schonzeit_von": null,
+        "Schonzeit_bis": null,
+        "Mindestmass": "Geschützt",
+        "Typ": 7
+      },
+      {
+        "ID": 23,
+        "Name": "Groppe",
+        "Grösse": "8-15 cm",
+        "Gewicht": "unter 100 g",
+        "Schonzeit_von": null,
+        "Schonzeit_bis": null,
+        "Mindestmass": "Geschützt",
+        "Typ": 7
+      },
+      {
+        "ID": 24,
+        "Name": "Bitterling",
+        "Grösse": "5-10 cm",
+        "Gewicht": "unter 20 g",
+        "Schonzeit_von": null,
+        "Schonzeit_bis": null,
+        "Mindestmass": "Geschützt",
+        "Typ": 7
+      },
+      {
+        "ID": 25,
+        "Name": "Elritze",
+        "Grösse": "5-12 cm",
+        "Gewicht": "unter 30 g",
+        "Schonzeit_von": null,
+        "Schonzeit_bis": null,
+        "Mindestmass": "Geschützt",
+        "Typ": 7
+      }
+    ]
+  }

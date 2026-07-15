@@ -1,0 +1,32 @@
+{
+    "typen": [
+      {
+        "ID": 1,
+        "Name": "Raubfisch"
+      },
+      {
+        "ID": 2,
+        "Name": "Friedfisch"
+      },
+      {
+        "ID": 3,
+        "Name": "Salmonide"
+      },
+      {
+        "ID": 4,
+        "Name": "Felchenartige"
+      },
+      {
+        "ID": 5,
+        "Name": "Bodenfisch"
+      },
+      {
+        "ID": 6,
+        "Name": "Kleinfisch"
+      },
+      {
+        "ID": 7,
+        "Name": "Geschützte Art"
+      }
+    ]
+  }

@@ -1,0 +1,203 @@
+{
+    "gewaesser": [
+      {
+        "ID": 1,
+        "Name": "Bodensee",
+        "Tiefe": "251 m",
+        "Typen": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "ID": 2,
+        "Name": "Zürichsee",
+        "Tiefe": "136 m",
+        "Typen": [
+          1,
+          2,
+          4
+        ]
+      },
+      {
+        "ID": 3,
+        "Name": "Walensee",
+        "Tiefe": "151 m",
+        "Typen": [
+          1,
+          3,
+          4
+        ]
+      },
+      {
+        "ID": 4,
+        "Name": "Vierwaldstättersee",
+        "Tiefe": "214 m",
+        "Typen": [
+          1,
+          3,
+          4
+        ]
+      },
+      {
+        "ID": 5,
+        "Name": "Genfersee",
+        "Tiefe": "310 m",
+        "Typen": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "ID": 6,
+        "Name": "Neuenburgersee",
+        "Tiefe": "152 m",
+        "Typen": [
+          1,
+          2,
+          4
+        ]
+      },
+      {
+        "ID": 7,
+        "Name": "Bielersee",
+        "Tiefe": "74 m",
+        "Typen": [
+          1,
+          2,
+          4
+        ]
+      },
+      {
+        "ID": 8,
+        "Name": "Thunersee",
+        "Tiefe": "217 m",
+        "Typen": [
+          1,
+          3,
+          4
+        ]
+      },
+      {
+        "ID": 9,
+        "Name": "Brienzersee",
+        "Tiefe": "260 m",
+        "Typen": [
+          3,
+          4
+        ]
+      },
+      {
+        "ID": 10,
+        "Name": "Rhein",
+        "Tiefe": "5-20 m",
+        "Typen": [
+          1,
+          2,
+          5
+        ]
+      },
+      {
+        "ID": 11,
+        "Name": "Aare",
+        "Tiefe": "2-15 m",
+        "Typen": [
+          1,
+          2,
+          5
+        ]
+      },
+      {
+        "ID": 12,
+        "Name": "Thur",
+        "Tiefe": "1-5 m",
+        "Typen": [
+          2,
+          3,
+          5
+        ]
+      },
+      {
+        "ID": 13,
+        "Name": "Sitter",
+        "Tiefe": "1-5 m",
+        "Typen": [
+          3,
+          5
+        ]
+      },
+      {
+        "ID": 14,
+        "Name": "Linth",
+        "Tiefe": "2-10 m",
+        "Typen": [
+          2,
+          3,
+          5
+        ]
+      },
+      {
+        "ID": 15,
+        "Name": "Reuss",
+        "Tiefe": "2-10 m",
+        "Typen": [
+          1,
+          2,
+          3,
+          5
+        ]
+      },
+      {
+        "ID": 16,
+        "Name": "Rhone",
+        "Tiefe": "2-15 m",
+        "Typen": [
+          2,
+          3,
+          5
+        ]
+      },
+      {
+        "ID": 17,
+        "Name": "Inn",
+        "Tiefe": "1-8 m",
+        "Typen": [
+          3,
+          5
+        ]
+      },
+      {
+        "ID": 18,
+        "Name": "Greifensee",
+        "Tiefe": "32 m",
+        "Typen": [
+          1,
+          2,
+          4
+        ]
+      },
+      {
+        "ID": 19,
+        "Name": "Pfäffikersee",
+        "Tiefe": "18 m",
+        "Typen": [
+          2,
+          4
+        ]
+      },
+      {
+        "ID": 20,
+        "Name": "Sempachersee",
+        "Tiefe": "87 m",
+        "Typen": [
+          1,
+          2,
+          4
+        ]
+      }
+    ]
+  }
