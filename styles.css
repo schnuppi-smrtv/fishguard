@@ -115,6 +115,11 @@ body {
   color: var(--color-gray);
 }
 
+.menu {
+  flex-shrink: 0;
+  position: relative;
+}
+
 .menu-button {
   align-items: center;
   background: transparent;
@@ -135,56 +140,100 @@ body {
   width: 28px;
 }
 
-/* Fish table */
-.fish-table {
+.nav-menu {
+  background: var(--color-white);
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(31, 41, 55, 0.12);
+  display: flex;
+  flex-direction: column;
+  min-width: 140px;
+  position: absolute;
+  right: 0;
+  top: calc(100% + 8px);
+  z-index: 10;
+}
+
+.nav-menu[hidden] {
+  display: none;
+}
+
+.nav-menu__link {
+  color: var(--color-black);
+  font-size: 14px;
+  font-weight: 600;
+  padding: 12px 16px;
+  text-decoration: none;
+}
+
+.nav-menu__link:hover {
+  background: #f9fafb;
+}
+
+.nav-menu__link--active {
+  color: var(--color-gray);
+}
+
+.nav-menu__link + .nav-menu__link {
+  border-top: 1px solid var(--color-border);
+}
+
+/* Data table */
+.data-table {
   margin-top: 24px;
   padding: 0 27px 32px;
 }
 
-.fish-table__header {
+.data-table__header {
   display: grid;
   font-family: "Iosevka", "Iosevka Charon", "Courier New", monospace;
   font-size: 14px;
   font-weight: 700;
   gap: 8px;
-  grid-template-columns: 1.2fr 1fr 1fr 1fr;
   margin-bottom: 12px;
 }
 
-.fish-table__body {
+.data-table__header--fish {
+  grid-template-columns: 1.2fr 1fr 1fr 1fr;
+}
+
+.data-table__header--gewaesser {
+  grid-template-columns: 1.2fr 0.8fr 1.5fr;
+}
+
+.data-table__body {
   display: flex;
   flex-direction: column;
 }
 
-.fish-row {
+.data-row {
   border-bottom: 1px solid var(--color-black);
   display: grid;
   font-family: "Iosevka", "Iosevka Charon", "Courier New", monospace;
   font-size: 14px;
   font-weight: 700;
   gap: 8px;
-  grid-template-columns: 1.2fr 1fr 1fr 1fr;
   padding: 10px 0;
   word-break: break-word;
 }
 
-.fish-row:first-child {
+.data-row--fish {
+  grid-template-columns: 1.2fr 1fr 1fr 1fr;
+}
+
+.data-row--gewaesser {
+  grid-template-columns: 1.2fr 0.8fr 1.5fr;
+}
+
+.data-row:first-child {
   padding-top: 0;
 }
 
-.fish-row__name {
+.data-row__name {
   padding-right: 4px;
 }
 
-.fish-row__schonzeit {
-  color: var(--color-black);
-}
-
-.fish-row__mass {
-  color: var(--color-black);
-}
-
-.fish-table__empty {
+.data-table__empty {
   color: var(--color-gray);
   font-family: "Inter", sans-serif;
   font-size: 14px;

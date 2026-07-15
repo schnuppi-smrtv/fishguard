@@ -15,18 +15,18 @@ function renderFishTable(fische, typenById, query = "") {
 
   if (filtered.length === 0) {
     tbody.innerHTML =
-      '<p class="fish-table__empty">Keine Fische gefunden.</p>';
+      '<p class="data-table__empty">Keine Fische gefunden.</p>';
     return;
   }
 
   tbody.innerHTML = filtered
     .map(
       (fisch) => `
-      <div class="fish-row" data-id="${fisch.ID}">
-        <span class="fish-row__name">${fisch.Name}</span>
-        <span class="fish-row__typ">${typenById[fisch.Typ] ?? "—"}</span>
-        <span class="fish-row__schonzeit">${formatSchonzeit(fisch.Schonzeit_von, fisch.Schonzeit_bis)}</span>
-        <span class="fish-row__mass">${fisch.Mindestmass}</span>
+      <div class="data-row data-row--fish" data-id="${fisch.ID}">
+        <span class="data-row__name">${fisch.Name}</span>
+        <span>${typenById[fisch.Typ] ?? "—"}</span>
+        <span>${formatSchonzeit(fisch.Schonzeit_von, fisch.Schonzeit_bis)}</span>
+        <span>${fisch.Mindestmass}</span>
       </div>
     `
     )

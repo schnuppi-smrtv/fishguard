@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Fishguard</title>
+    <title>Fishguard – Gewässer</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -28,7 +28,7 @@
       </header>
 
       <section class="search-section">
-        <p class="search-section__label">Fisch suchen</p>
+        <p class="search-section__label">Gewässer suchen</p>
         <div class="search-row">
           <label class="search-bar">
             <img
@@ -62,27 +62,26 @@
               />
             </button>
             <nav id="nav-menu" class="nav-menu" hidden>
-              <a class="nav-menu__link nav-menu__link--active" href="index.html"
-                >Fisch</a
+              <a class="nav-menu__link" href="index.html">Fisch</a>
+              <a class="nav-menu__link nav-menu__link--active" href="gewaesser.html"
+                >Gewässer</a
               >
-              <a class="nav-menu__link" href="gewaesser.html">Gewässer</a>
             </nav>
           </div>
         </div>
       </section>
 
-      <section class="data-table" aria-label="Fischliste">
-        <div class="data-table__header data-table__header--fish">
-          <span>Fisch</span>
-          <span>Typ</span>
-          <span>Schonzeiten</span>
-          <span>Schonmasse</span>
+      <section class="data-table" aria-label="Gewässerliste">
+        <div class="data-table__header data-table__header--gewaesser">
+          <span>Gewässer</span>
+          <span>Tiefe</span>
+          <span>Fischtypen</span>
         </div>
-        <div id="fish-table-body" class="data-table__body"></div>
+        <div id="gewaesser-table-body" class="data-table__body"></div>
       </section>
     </div>
 
     <script src="menu.js"></script>
-    <script src="app.js"></script>
+    <script src="gewaesser.js"></script>
   </body>
 </html>
