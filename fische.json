@@ -22,7 +22,7 @@
       },
       {
         "ID": 3,
-        "Name": "asdf",
+        "Name": "Regenbogenforelle",
         "Grösse": "25-80 cm",
         "Gewicht": "0.5-8 kg",
         "Schonzeit_von": null,
@@ -245,6 +245,96 @@
         "Name": "Elritze",
         "Grösse": "5-12 cm",
         "Gewicht": "unter 30 g",
+        "Schonzeit_von": null,
+        "Schonzeit_bis": null,
+        "Mindestmass": "Geschützt",
+        "Typ": 7
+      },
+      {
+        "ID": 26,
+        "Name": "Bachsaibling",
+        "Grösse": "20-50 cm",
+        "Gewicht": "0.2-2 kg",
+        "Schonzeit_von": "01.10",
+        "Schonzeit_bis": "28.02",
+        "Mindestmass": "Gewässerabhängig",
+        "Typ": 3
+      },
+      {
+        "ID": 27,
+        "Name": "Kaulbarsch",
+        "Grösse": "10-25 cm",
+        "Gewicht": "0.05-0.3 kg",
+        "Schonzeit_von": null,
+        "Schonzeit_bis": null,
+        "Mindestmass": "Gewässerabhängig",
+        "Typ": 1
+      },
+      {
+        "ID": 28,
+        "Name": "Hasel",
+        "Grösse": "10-25 cm",
+        "Gewicht": "0.05-0.3 kg",
+        "Schonzeit_von": null,
+        "Schonzeit_bis": null,
+        "Mindestmass": "Gewässerabhängig",
+        "Typ": 6
+      },
+      {
+        "ID": 29,
+        "Name": "Laube",
+        "Grösse": "10-20 cm",
+        "Gewicht": "unter 100 g",
+        "Schonzeit_von": null,
+        "Schonzeit_bis": null,
+        "Mindestmass": "Gewässerabhängig",
+        "Typ": 6
+      },
+      {
+        "ID": 30,
+        "Name": "Gründling",
+        "Grösse": "8-15 cm",
+        "Gewicht": "unter 50 g",
+        "Schonzeit_von": null,
+        "Schonzeit_bis": null,
+        "Mindestmass": "Gewässerabhängig",
+        "Typ": 6
+      },
+      {
+        "ID": 31,
+        "Name": "Stichling",
+        "Grösse": "4-8 cm",
+        "Gewicht": "unter 10 g",
+        "Schonzeit_von": null,
+        "Schonzeit_bis": null,
+        "Mindestmass": "Gewässerabhängig",
+        "Typ": 6
+      },
+      {
+        "ID": 32,
+        "Name": "Schneider",
+        "Grösse": "8-16 cm",
+        "Gewicht": "unter 50 g",
+        "Schonzeit_von": null,
+        "Schonzeit_bis": null,
+        "Mindestmass": "Geschützt",
+        "Typ": 7
+      },
+      {
+        "ID": 33,
+        "Name": "Strömer",
+        "Grösse": "10-25 cm",
+        "Gewicht": "0.05-0.2 kg",
+        "Schonzeit_von": null,
+        "Schonzeit_bis": null,
+        "Mindestmass": "Geschützt",
+        "Typ": 7
+      },
+      {
+        "ID": 34,
+        "Name": "Huchen",
+        "Grösse": "60-150 cm",
+        "Gewicht": "3-30 kg",
         "Schonzeit_von": null,
         "Schonzeit_bis": null,
         "Mindestmass": "Geschützt",
