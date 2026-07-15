@@ -74,8 +74,26 @@
 
       <section class="data-table" aria-label="Fischliste">
         <div class="data-table__header data-table__header--fish">
-          <span>Fisch</span>
-          <span>Typ</span>
+          <button
+            class="data-table__sort"
+            type="button"
+            data-sort="name"
+            data-sort-label="Fisch"
+            aria-sort="none"
+            aria-label="Nach Fisch sortieren"
+          >
+            Fisch <span class="data-table__sort-icon" aria-hidden="true"></span>
+          </button>
+          <button
+            class="data-table__sort"
+            type="button"
+            data-sort="typ"
+            data-sort-label="Typ"
+            aria-sort="none"
+            aria-label="Nach Typ sortieren"
+          >
+            Typ <span class="data-table__sort-icon" aria-hidden="true"></span>
+          </button>
           <span>Schonzeiten</span>
           <span>Schonmasse</span>
         </div>
@@ -84,6 +102,7 @@
     </div>
 
     <script src="menu.js"></script>
+    <script src="sort.js"></script>
     <script src="app.js"></script>
   </body>
 </html>

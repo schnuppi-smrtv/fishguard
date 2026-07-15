@@ -201,6 +201,45 @@ body {
   grid-template-columns: 1.2fr 0.8fr 1.5fr;
 }
 
+.data-table__sort {
+  align-items: center;
+  background: transparent;
+  border: 0;
+  color: inherit;
+  cursor: pointer;
+  display: inline-flex;
+  font: inherit;
+  font-weight: inherit;
+  gap: 4px;
+  text-align: left;
+}
+
+.data-table__sort:hover {
+  text-decoration: underline;
+}
+
+.data-table__sort:focus-visible {
+  outline: 2px solid var(--color-black);
+  outline-offset: 2px;
+}
+
+.data-table__sort-icon {
+  visibility: hidden;
+}
+
+.data-table__sort[aria-sort="ascending"] .data-table__sort-icon,
+.data-table__sort[aria-sort="descending"] .data-table__sort-icon {
+  visibility: visible;
+}
+
+.data-table__sort[aria-sort="ascending"] .data-table__sort-icon::before {
+  content: "▲";
+}
+
+.data-table__sort[aria-sort="descending"] .data-table__sort-icon::before {
+  content: "▼";
+}
+
 .data-table__body {
   display: flex;
   flex-direction: column;

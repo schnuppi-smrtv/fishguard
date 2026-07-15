@@ -74,15 +74,36 @@
 
       <section class="data-table" aria-label="Gewässerliste">
         <div class="data-table__header data-table__header--gewaesser">
-          <span>Gewässer</span>
+          <button
+            class="data-table__sort"
+            type="button"
+            data-sort="name"
+            data-sort-label="Gewässer"
+            aria-sort="none"
+            aria-label="Nach Gewässer sortieren"
+          >
+            Gewässer
+            <span class="data-table__sort-icon" aria-hidden="true"></span>
+          </button>
           <span>Tiefe</span>
-          <span>Fischtypen</span>
+          <button
+            class="data-table__sort"
+            type="button"
+            data-sort="typ"
+            data-sort-label="Fischtypen"
+            aria-sort="none"
+            aria-label="Nach Fischtypen sortieren"
+          >
+            Fischtypen
+            <span class="data-table__sort-icon" aria-hidden="true"></span>
+          </button>
         </div>
         <div id="gewaesser-table-body" class="data-table__body"></div>
       </section>
     </div>
 
     <script src="menu.js"></script>
+    <script src="sort.js"></script>
     <script src="gewaesser.js"></script>
   </body>
 </html>
