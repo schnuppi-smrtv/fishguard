@@ -5,7 +5,7 @@ function formatSchonzeit(von, bis) {
   return `${von} – ${bis}`;
 }
 
-function renderFishTable(fische, query = "") {
+function renderFishTable(fische, typenById, query = "") {
   const tbody = document.getElementById("fish-table-body");
   const normalizedQuery = query.trim().toLowerCase();
 
@@ -24,6 +24,7 @@ function renderFishTable(fische, query = "") {
       (fisch) => `
       <div class="fish-row" data-id="${fisch.ID}">
         <span class="fish-row__name">${fisch.Name}</span>
+        <span class="fish-row__typ">${typenById[fisch.Typ] ?? "—"}</span>
         <span class="fish-row__schonzeit">${formatSchonzeit(fisch.Schonzeit_von, fisch.Schonzeit_bis)}</span>
         <span class="fish-row__mass">${fisch.Mindestmass}</span>
       </div>
@@ -33,15 +34,19 @@ function renderFishTable(fische, query = "") {
 }
 
 async function init() {
-  const response = await fetch("fische.json");
-  const data = await response.json();
-  const fische = data.fische;
+  const [fischeResponse, typenResponse] = await Promise.all([
+    fetch("fische.json"),
+    fetch("typen.json"),
+  ]);
+  const { fische } = await fischeResponse.json();
+  const { typen } = await typenResponse.json();
+  const typenById = Object.fromEntries(typen.map((typ) => [typ.ID, typ.Name]));
 
-  renderFishTable(fische);
+  renderFishTable(fische, typenById);
 
   const searchInput = document.getElementById("search-input");
   searchInput.addEventListener("input", (event) => {
-    renderFishTable(fische, event.target.value);
+    renderFishTable(fische, typenById, event.target.value);
   });
 }
 
