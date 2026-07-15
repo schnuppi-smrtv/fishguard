@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fishguard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Kaisei+Decol:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/@fontsource/iosevka@5.0.0/400.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app">
+      <header class="hero">
+        <img
+          class="hero__image"
+          src="assets/header-fish.png"
+          alt="Fisch Illustration"
+        />
+        <h1 class="hero__title">Fishguard</h1>
+      </header>
+
+      <section class="search-section">
+        <p class="search-section__label">Fisch suchen</p>
+        <div class="search-row">
+          <label class="search-bar">
+            <img
+              class="search-bar__icon"
+              src="assets/search-icon.svg"
+              alt=""
+              aria-hidden="true"
+            />
+            <input
+              id="search-input"
+              class="search-bar__input"
+              type="search"
+              placeholder="Name eingeben…"
+              autocomplete="off"
+            />
+          </label>
+          <button class="menu-button" type="button" aria-label="Menü">
+            <img
+              class="menu-button__icon"
+              src="assets/menu-icon.svg"
+              alt=""
+              aria-hidden="true"
+            />
+          </button>
+        </div>
+      </section>
+
+      <section class="fish-table" aria-label="Fischliste">
+        <div class="fish-table__header">
+          <span>Fisch</span>
+          <span>Schonzeiten</span>
+          <span>Schonmasse</span>
+        </div>
+        <div id="fish-table-body" class="fish-table__body"></div>
+      </section>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
